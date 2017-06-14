@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<link href="stylish.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src="game.js"></script>
+<title>
+The Game of Luck
+</title>
+</head>
+<body onload='backpattern()'>
+   <div id=header>
+     <span id=clear>
+	   CLEAR:0
+	 </span>
+	 <button type="button" id="but" onclick=location.reload()>
+	 Restart
+	 </button>
+	 <span id=turns>
+	  TURNS:0
+	 </span>
+   </div>
+   <div id="wrapper">
+       <table id="chair">
+       <tr>
+	      <td id="r0c0" onclick = 'show(this)'></td>
+		  <td id="r0c1" onclick = 'show(this)'></td>
+		  <td id="r0c2" onclick = 'show(this)'></td>
+		  <td id="r0c3" onclick = 'show(this)'></td>
+	   </tr>
+	   <tr>
+	      <td id="r1c0" onclick = 'show(this)'></td>
+		  <td id="r1c1" onclick = 'show(this)'></td>
+		  <td id="r1c2" onclick = 'show(this)'></td>
+		  <td id="r1c3" onclick = 'show(this)'></td>
+	   </tr>
+	   <tr>
+	      <td id="r2c0" onclick = 'show(this)'></td>
+		  <td id="r2c1" onclick = 'show(this)'></td>
+		  <td id="r2c2" onclick = 'show(this)'></td>
+		  <td id="r2c3" onclick = 'show(this)'></td>
+	    </tr>
+	   <tr>
+	      <td id="r3c0" onclick = 'show(this)'></td>
+		  <td id="r3c1" onclick = 'show(this)'></td>
+		  <td id="r3c2" onclick = 'show(this)'></td>
+		  <td id="r3c3" onclick = 'show(this)'></td>
+	  </tr>
+	 </table>
+   </div>
+</body>
+</html>
+    
